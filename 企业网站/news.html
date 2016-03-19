@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>企业网站练习</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script src="js/setHomeSetFav.js" type="text/javascript" charset="gb2312"></script>
+</head>
+<body>
+	<div class="top">
+		<div class="top_content">
+			<ul>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#" onclick="AddFavorite(window.location,document.title)">加入收藏</a></li>
+				<li> <a href="#" onclick="SetHome(window.location)">设为首页</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="logo">
+			<div class="logo_left">
+				<img src="images/logo.jpg" alt="慕课网" />
+			</div>
+			<div class="logo_right">
+				<img src="images/tel.jpg" alt="服务热线" />24小时服务热线：<span class="tel">  123-456-789</span>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav_left"></div>
+			<div class="nav_mid">
+				<div class="nav_mid_left">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="list.html">关于慕课</a></li>
+						<li><a href="list.html">新闻动态</a></li>
+						<li><a href="list.html">课程中心</a></li>
+						<li><a href="list.html">在线课程</a></li>
+						<li><a href="list.html">人才招聘</a></li>
+					</ul>
+				</div>
+				<div class="nav_mid_right">
+					<form action="" method="post">
+					<input type="text" class="search_text"/>	
+					</form>
+				</div>
+			</div>
+			<div class="nav_right"></div>
+		</div>
+		<div class="ad" id="picBox" style="height:243px">
+		  <img src="images/ad.jpg">
+		 </div><!-- ad结束 -->
+		 <div class="list_main">
+		 	<div class="news_type">
+		 		<h2>新闻中心</h2>
+		 		<div class="news_type_content">
+		 			<ul>
+		 				<li><a href="index.html">公司新闻</a></li>
+						<li><a href="list.html">行业新闻</a></li>
+						<li><a href="list.html">媒体报道</a></li>
+						<li><a href="list.html">活动专题</a></li>
+						<li><a href="list.html">精彩视频</a></li>
+						<li><a href="list.html">资源下载</a></li>
+						<li><a href="list.html">公司内刊</a></li>
+		 			</ul>
+		 		</div>
+		 	</div>
+		 	<div class="list_box">
+		 		<h2>新闻中心</h2>
+                 <h1>【有奖活动】给父亲的三行书信</h1>
+                 <p class="list_box_newsInfo">发布人：刘克鹏 发布时间：2015-10-9 浏览：342266次</p>
+                 <div class="list_box_newsContent">
+                 	<p>父亲，一个伟大的名词，父亲的教诲让我明白了怎样做人父亲给了我上进的勇气和动力无论再大困难他都默默支持我 励我今天稍有成就的我多半归功于我那慈祥的父亲看着父亲的白发
+                    看着父亲驼背的腰板唯有泪水心里流继续奋斗父亲总有一天儿会接过家庭重担
+                    为你分忧解难相信明天你也会为有我这样的儿子骄傲此时我看到了父亲欣慰的笑容愿天底下父亲                    安康永远</p>
+                 	<br>
+                 	<p><strong>活动题目：</strong>给父亲的三行情书</p>
+                 	<p><strong>活动时间：</strong>2015-10-11至15日（17号公布获奖名单）</p>
+                 	<p align="center"><img src="images/news1.jpg" width="500" height="336"></p>
+                 	<p><strong>奖励：</strong>父亲专属</p>
+                 	<p><strong>奖励名额：</strong>5人</p>
+                 	<p align="center"><img src="images/news2.jpg" width="500" height="336"></p>
+                 </div>
+		    </div> 
+		 </div>
+		</div><!-- wrap结束 -->
+	</div>
+	<div class="copyright">
+		<div class="copyright_content">
+			<ul>
+				<li><a href="#">关于</a>
+					<ul>
+						<li><a href="#">品牌故事</a></li>
+				        <li><a href="#">联系我们</a></li>
+				        <li><a href="#">加入我们</a></li>
+				        <li><a href="#">版权声明</a></li>
+					</ul>
+				</li>
+				<li><a href="#">课程</a>
+				<ul>
+						<li><a href="#">PHP开发</a></li>
+				        <li><a href="#">前端开发</a></li>
+				        <li><a href="#">JAVA开发</a></li>
+				        <li><a href="#">Android开发</a></li>
+					</ul>
+				</li>
+				<li><a href="#">留言</a>
+					<ul>
+						<li><a href="#">新浪微博</a></li>
+				        <li><a href="#">腾讯微博</a></li>
+				        <li><a href="#">企业微博</a></li>
+				        <li><a href="#">QQ空间</a></li>
+					</ul>
+				</li>
+				<li><a href="#">关注</a>
+				<ul>
+						<li><a href="#">意见反馈</a></li>
+				        <li><a href="#">问题留言</a></li>
+				        <li><a href="#">媒体联络</a></li>
+				        <li><a href="#">在线服务</a></li>
+					</ul>
+				</li>
+                <li><a href="#"><img src="images/weixin.png">微信关注</a>
+                	<ul>
+                		<li><img src="images/qrcode.jpg"></li>
+                	</ul>
+                </li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
